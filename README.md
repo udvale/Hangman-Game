@@ -2,7 +2,13 @@
 TCP Hangman Game is a text-based multiplayer Hangman game that uses TCP connections and multithreading to offer an interactive and engaging experience. This project demonstrates the principles of network programming by allowing two clients to compete in a classic game of Hangman, with the server managing communication and game logic.
 
 ## About
-In the TCP Hangman Game, two players connect to a server and alternate between selecting and guessing words. The server manages multiple concurrent games, ensuring smooth gameplay and role-switching for each round. Key features include:
+In the TCP Hangman Game, two players connect to a server and alternate between selecting and guessing words. The server manages multiple concurrent games, ensuring smooth gameplay and role-switching for each round. The main components and interactions of the game are illustrated in Figures 1 and 2.
+
+<img src="https://github.com/user-attachments/assets/91db0114-56ca-4e1a-b3e0-b4d3dd5a7b13" alt="Class Diagram" width="750" style="display: block; margin: 0 auto;" />
+
+<img src="https://github.com/user-attachments/assets/99529da3-54e1-442c-8932-b3ed0c50f70d" alt="Timing Diagram" width="750" style="display: block; margin: 0 auto;" />
+
+Key features include:
 - **Multithreading Support**: Multiple games can run concurrently without overlap.
 - **TCP Protocol**: Reliable communication between clients and the server.
 - **Dynamic Gameplay**: Players alternate roles, and rounds are tracked independently.
